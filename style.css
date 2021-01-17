@@ -118,5 +118,54 @@ h1::after{
     color: #fff;
     box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
     transition: .5s;
+}
+.services .col-md-3:hover .icon{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.services .col-md-3:hover p{
+    color: #fff;
+}
+.services .col-md-3:hover span{
+    color: #fff;
+}
 
+/*---------------------Features--------------------*/
+
+.feature h2{
+    margin-top: 130px;
+}
+.feature h2::after{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto 50px;
+    position: absolute;
+    left: 17px;
+}
+.feature ul{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+.feature ul li{
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+.feature ul li::after{
+    content:'';
+    height: 7px;
+    width: 7px;
+    background: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+.feature img{
+    margin-top: 130px;
+    
 }
