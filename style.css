@@ -42,3 +42,29 @@
     margin: 16% auto 0;
     text-align: center;
 }
+
+.banner-text h2{
+    margin-top: 50px;
+    font-size: 64px;
+}
+
+.banner-text p{
+    font-size: 14px;
+    margin: 20px 0 50px;
+}
+
+.banner-text a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff4d73;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin: auto;
+    background: #ff4d73;
+    transition: .5s;
+}
+
+.banner-text a:hover{
+    background: transparent;
+}
