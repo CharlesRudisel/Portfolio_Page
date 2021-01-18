@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery.tiltedpage-scroll.js"></script>
+    <link rel="stylesheet" href="tiltedpage-scroll.css">
 
 </head>
 
 <body>
+    <div class="main">
     <section class="header">
         <div class="content-box">
             <div class="menu">
@@ -156,6 +161,17 @@
             </div>
         </div>
     </section>
+</div>
+
+<script>
+    $(".main").tiltedpage_scroll({
+   sectionContainer: "> section",
+   angle: 50,
+   opacity: true,
+   scale: true,
+   outAnimation: true
+ });
+</script>  
 </body>
 
 </html>

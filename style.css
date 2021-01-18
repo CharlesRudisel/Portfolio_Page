@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .header .content-box{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(port-img-1.jpg);
     background-position: center;
@@ -222,4 +226,9 @@ h1::after{
 
     margin-top: 50px;
     background: #ff4d73
+}
+
+.service, .feature, .footer{
+    margin-top:10%;
+    
 }
