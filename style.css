@@ -20,9 +20,46 @@ body{
 .menu{
     display: inline-flex;
 }
+.menu ul{
+    list-style: none;
+}
+
+.menu ul{
+    
+}
+.menu li{
+    display: inline;
+    float: right;
+}
+
+.menu nav{
+    padding: 5px 20px;
+    
+    color: #fff; 
+    font-size: 16px;
+    border:0;
+    position: absolute;
+    
+    right: 0%;
+    top: 8%;
+}
+
+.menu nav ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.menu nav ul li a:hover{
+    text-decoration: none;
+    color: #ff4d73;
+
+}
+
 .menu img{
     height: 35px;
-    margin: 20px 0 0 110px;
+    margin: 27px 0 0 110px;
     cursor: pointer;
 }
 
@@ -33,8 +70,8 @@ body{
     font-size: 16px;
     border:0;
     position: absolute;
-    right: 10%;
-    top: 5%;
+    left: 5%;
+    top: 8%;
 }
 
 .menu button .fa{
